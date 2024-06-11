@@ -1,0 +1,5 @@
+services:
+  spring-boot-app:
+    image: yassineben22/deploy-automation
+    ports:
+      - "9005:9005"

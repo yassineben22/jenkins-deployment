@@ -28,5 +28,12 @@ pipeline {
                 }
             }
         }
+        stage('Docker compose'){
+            steps {
+                script {
+                    bat 'docker-compose up -d'
+                }
+            }
+        }
     }
 }
